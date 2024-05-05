@@ -177,42 +177,151 @@ SQLite3
 
 # Proje 11 Müzik Enstrümanı Dükkanı Yönetimi
 
+Bu Python uygulaması, PyQt5 ve SQLite kullanarak bir müzik enstrüman dükkanını bir grafiksel kullanıcı arayüzü (GUI) ile yönetmek için tasarlanmıştır. Kullanıcılara envanterde yeni enstrümanlar eklemelerine, satışları kaydetmelerine ve destek talepleri oluşturmalarına olanak tanır.
+
+# Özellikler
+Enstrüman Ekleme: Kullanıcılar, enstrüman adını, stok miktarını ve durumunu (mevcut veya stokta yok) sağlayarak envantere yeni enstrümanlar ekleyebilirler.
+Satış Yapma: Uygulama, sipariş numarasını girmeyi ve bir açılır listeden satılan enstrümanı seçmeyi sağlayarak satışları kaydetmeyi mümkün kılar.
+Destek Oluşturma: Kullanıcılar, bir destek bileti numarası sağlayarak destek talepleri oluşturabilirler.
+
+# Gereksinimler
+Python 3.x
+PyQt5
+SQLite3
+
 <img width="343" alt="Screenshot 2024-05-05 at 14 16 22" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/b11e7e5f-fa87-4a9a-ba07-8149b7cbbf68">
 
 # Proje 12 Kişisel Sağlık Takip Uygulaması
+
+Bu Python uygulaması, PyQt5 ve SQLite kullanarak bir kişisel sağlık takip uygulamasını oluşturur. Kullanıcıların temel bilgilerini, sağlık kayıtlarını ve egzersiz bilgilerini kaydetmelerine olanak tanır.
+
+# Özellikler
+Kullanıcı Bilgileri Ekleme: Kullanıcılar adlarını, soyadlarını, yaşlarını ve cinsiyetlerini girerek yeni kayıt ekleyebilirler.
+Sağlık Kaydı Ekleme: Kullanıcılar, kan basıncı, nabız ve kan şekeri gibi sağlık verilerini girebilirler.
+Egzersiz Bilgileri Ekleme: Egzersiz adı, süresi ve tekrarları gibi egzersiz bilgilerini kaydedebilirler.
+Rapor Oluşturma: Kullanıcılar, girdikleri bilgilere dayanarak bir rapor oluşturabilirler.
+
+# Gereksinimler
+Python 3.x
+PyQt5
+SQLite3
 
 <img width="392" alt="Screenshot 2024-05-05 at 14 18 42" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/cf4d0713-edcb-467c-8357-ad93ed56faa4">
 
 # Proje 13  Etkinlik ve Bilet Satış Platformu
 
+Bu Python uygulaması, PyQt5 ve SQLite kullanarak bir etkinlik ve bilet satış platformunu oluşturur. Kullanıcılar etkinlik bilgilerini görüntüleyebilir, bilet satın alabilir ve etkinlik oluşturabilirler.
+
+# Özellikler
+Etkinlik Oluşturma: Kullanıcılar etkinlik adını, tarihini ve mekanını girerek yeni etkinlik oluşturabilirler.
+Bilet Satın Alma: Kullanıcılar adlarını, soyadlarını, e-postalarını ve bilet numaralarını girerek bilet satın alabilirler.
+Etkinlik Bilgilerini Görüntüleme: Kullanıcılar etkinlik adı, tarihi ve mekanını görebilirler.
+
+# Gereksinimler
+Python 3.x
+PyQt5
+SQLite3
+
 <img width="293" alt="Screenshot 2024-05-05 at 14 20 14" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/28aa2a30-2c5b-4ac1-9a38-b35ed8fc8402">
 
 # Proje 14  İş Takip ve Yönetim Sistemi
+
+Bu Python uygulaması, PyQt5 ve SQLite kullanarak bir iş takip ve yönetim sistemini oluşturur. Kullanıcılar projeler oluşturabilir, çalışanlar ekleyebilir ve bu projelere görevler atayabilirler.
+
+# Özellikler
+Proje Oluşturma: Kullanıcılar proje adını, başlangıç ve bitiş tarihlerini girerek yeni projeler oluşturabilirler.
+Çalışan Ekleme: Kullanıcılar çalışanların adını ve departmanını girerek yeni çalışanlar ekleyebilirler.
+Görev Atama: Kullanıcılar görev adını, sorumlu kişiyi ve ilerleme yüzdesini girerek projelere görevler atayabilirler.
 
 <img width="296" alt="Screenshot 2024-05-05 at 14 21 34" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/f647d6eb-4486-477a-9f0e-33f252360bef">
 
 # Proje 15 Çevrimiçi Kitap Okuma ve Paylaşım Platformu
 
+Bu PyQt5 tabanlı kitap uygulaması, kullanıcıların çevrimiçi kitap okuma ve paylaşım platformunda oturum açmasına, kitap eklemesine ve yorum yapmasına olanak tanır. SQLite veritabanı kullanarak kitap ve yorum verilerini depolar.
+
+# Özellikler
+Giriş Yapma: Kullanıcılar kullanıcı adı ve şifreleriyle oturum açabilirler. Varsayılan kullanıcı adı ve şifre "admin" olarak ayarlanmıştır.
+Kitap Ekleme: Kullanıcılar kitap adı, yazarı ve yayınevini girerek yeni kitaplar ekleyebilirler.
+Yorum Yapma: Kullanıcılar seçtikleri bir kitaba yorum ekleyebilirler. Yorum metni ve yorum yapanın adı girilir.
+
+Gerekli bağımlılıkları yükleyin
+pip install PyQt5
+
 <img width="393" alt="Screenshot 2024-05-05 at 14 22 41" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5b71b13f-68e0-4e2e-8ef0-fc6f4544b335">
 
 # Proje 16 Film ve Dizi İzleme Servisi
+
+Bu uygulama, kullanıcıların film ve dizileri izleyebileceği, yeni filmler ekleyebileceği ve kullanıcı girişi yapabileceği bir PyQt5 tabanlı bir uygulamadır.
+
+# Özellikler
+
+Kullanıcı Girişi: Kullanıcılar, kullanıcı adı ve şifreleriyle giriş yapabilirler. Doğru kimlik bilgileri sağlandığında, film listesi görüntülenir.
+Film Listesi: Kullanıcılar, mevcut filmleri bir liste şeklinde görüntüleyebilirler.
+Film Ekleme: Yönetici kullanıcılar, yeni filmleri ekleyebilirler. Film adı, yönetmen ve tür bilgilerini girdikten sonra "Film Ekle" düğmesine tıklayarak yeni bir film ekleyebilirler.
 
 <img width="595" alt="Screenshot 2024-05-05 at 14 50 15" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/45dbe34e-878b-43db-a156-c6b52c23f7e1">
 
 
 # Proje 17 Eğitim Materyali Paylaşım Platformu
 
+Bu uygulama, öğretmenlerin dersler oluşturmasına ve bu derslere materyal eklemesine olanak tanır. Öğrenciler de bu materyallere erişebilirler.
+
+Özellikler
+
+Ders Oluşturma: Öğretmenler, ders adını ve ilgili öğretmeni seçerek yeni dersler oluşturabilirler.
+Materyal Ekleme: Öğretmenler, belirli bir derse materyal ekleyebilirler. Materyal adı, türü ve içeriği girilerek materyal oluşturulabilir.
+Materyal Listesi: Eklenen dersler ve materyaller bir liste olarak görüntülenir.
+
 <img width="593" alt="Screenshot 2024-05-05 at 14 23 56" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/09712d5b-276a-41cb-b215-4588f1e5318f">
 
 # proje 18 Tarihçi - Tarihi Olaylar Veritabanı
+Bu uygulama, tarihi olaylar, şahsiyetler ve dönemler hakkında bilgi depolamanıza ve yönetmenize olanak tanır.
+
+# Özellikler
+
+Olay Ekleme: Belirli bir olayın adını, tarihini ve açıklamasını girerek veritabanına yeni bir olay ekleyebilirsiniz.
+Şahsiyet Ekleme: Bir şahsiyetin adını ve yaşadığı dönemleri girerek veritabanına yeni bir şahsiyet ekleyebilirsiniz.
+Dönem Ekleme: Bir dönemin adını, başlangıç tarihini ve bitiş tarihini girerek veritabanına yeni bir dönem ekleyebilirsiniz.
+Veri Listeleme: Eklenen olaylar, şahsiyetler ve dönemler bir liste olarak görüntülenir.
 
 <img width="495" alt="Screenshot 2024-05-05 at 14 25 10" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/fc232849-7df6-49ed-af15-2c5ed153e8e2">
 
+# Kullanım
+
+Uygulamayı başlatın.
+Olay eklemek için olayın adını, tarihini ve açıklamasını girin, ardından "Olay Ekle" düğmesine tıklayın.
+Şahsiyet eklemek için şahsiyetin adını ve yaşadığı dönemleri girin, ardından "Şahsiyet Ekle" düğmesine tıklayın.
+Dönem eklemek için dönemin adını, başlangıç tarihini ve bitiş tarihini girin, ardından "Dönem Ekle" düğmesine tıklayın.
+
 # Proje 19 Restoran Sipariş ve Yönetim Sistemi
+Bu uygulama, bir restoranın ürünlerini ve alınan siparişleri yönetmenize olanak tanır.
+
+# Özellikler
+
+Ürün Ekleme: Restoranda satılan ürünlerin adını, fiyatını ve stok durumunu girerek veritabanına yeni bir ürün ekleyebilirsiniz.
+Sipariş Alma: Müşterilerin verdiği siparişleri sipariş numarası, içerik ve müşteri bilgileriyle birlikte kaydedebilirsiniz.
+Sipariş Listeleme: Eklenen ürünler ve alınan siparişler bir liste olarak görüntülenir.
 
 <img width="393" alt="Screenshot 2024-05-05 at 14 31 12" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/a8a81e2b-cf93-40c3-b077-fdbd7f79bf28">
 
+# Geliştirme
+
+Bu uygulama, PyQt5 ve SQLite3 kullanılarak geliştirilmiştir. İlgili koddaki değişikliklerle uygulamayı özelleştirebilir veya geliştirebilirsiniz.
+
 # Proje 20 Video Oyun Koleksiyonu Yönetimi
+Bu uygulama, bir video oyun koleksiyonunu ve oyuncuların koleksiyonlarını yönetmek için tasarlanmıştır.
+
+# Özellikler
+
+Oyun Ekleme: Yeni oyunları adları, türleri ve platformlarıyla birlikte ekleyebilirsiniz.
+Koleksiyon Ekleme: Oyuncuların adlarını ve favori oyunlarını ekleyebilirsiniz.
+Oyuncu Listesi: Eklenen oyuncuların adları ve favori oyunları listelenir.
+
+# Gereksinimler
+
+Python 3.x
+PyQt5 kütüphanesi
+SQLite3 kütüphanesi (Varsayılan olarak Python'a dahildir)
 
 <img width="293" alt="Screenshot 2024-05-05 at 14 36 33" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/f8699dfd-6a33-423e-b8ef-56344e9fb164">
 
