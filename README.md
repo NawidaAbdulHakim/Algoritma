@@ -1,20 +1,81 @@
 # Proje 1  Araç Kiralama Sistemi
 
+Bu proje, PyQt5 kullanılarak geliştirilmiş basit bir araç kiralama sistemi uygulamasını içerir. Bu uygulama, kullanıcıların araç kiralama işlemlerini gerçekleştirebilmesine olanak tanır.
+
+Gerekli kütüphaneleri yükleyin:
+pip install PyQt5
+
+# Özellikler
+
+- Kullanıcı girişi: Kullanıcılar adlarını, soyadlarını, telefon numaralarını ve kredi kartı bilgilerini girerek sisteme giriş yapabilirler.
+- Araç seçimi: Kullanıcılar, mevcut araç listesinden araç seçimi yapabilirler.
+- Kiralama yapma: Kullanıcılar seçtikleri aracı kiralayabilirler.
+- Kiralama iptali: Kullanıcılar kiraladıkları aracı iptal edebilirler.
+
 <img width="194" alt="Screenshot 2024-05-05 at 13 58 07" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5bbb375a-2f18-4e8b-b1e8-23f6dd244777">
 
 # Proje 2  Hastane Randevu Sistemi
 
+Bu proje, PyQt5 kullanılarak geliştirilmiş bir randevu sistemi uygulamasını içerir. Bu uygulama, kullanıcıların randevu almasına ve randevu iptal etmesine olanak tanır.
+
+# Özellikler
+
+- Kullanıcı girişi: Kullanıcılar adlarını, soyadlarını, doğum tarihlerini, telefon numaralarını ve sigorta numaralarını girerek sisteme giriş yapabilirler.
+- Doktor seçimi: Kullanıcılar, mevcut doktor listesinden bir doktor seçebilirler.
+- Randevu alma: Kullanıcılar seçtikleri doktordan randevu alabilirler.
+- Randevu iptali: Kullanıcılar aldıkları randevuyu iptal edebilirler.
+
+
 <img width="231" alt="Screenshot 2024-05-05 at 14 01 00" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/752caa4e-9da5-4a68-b50f-cbbd9fbe813f">
+
+<img width="229" alt="Screenshot 2024-05-05 at 20 05 15" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/130a3356-e644-4b03-a01e-e50a25309511">
+
 
 # Proje 3  Kütüphane Yönetim Sistemi
 
+Bu proje, PyQt5 kullanılarak geliştirilmiş bir kütüphane yönetim sistemi uygulamasını içerir. Bu uygulama, kütüphanede kayıtlı olan kitapları ve üyeleri yönetmek için kullanılır. Ayrıca, üyelerin kitap ödünç alma ve iade etme işlemlerini gerçekleştirebilir.
+
+## Özellikler
+
+- Üye ekleme: Kullanıcılar, kütüphaneye yeni üyeler ekleyebilirler.
+- Kitap ekleme: Kullanıcılar, kütüphaneye yeni kitaplar ekleyebilirler.
+- Ödünç alma: Kullanıcılar, mevcut üyelerden birine ait bir kitabı ödünç alabilirler.
+- İade etme: Kullanıcılar, ödünç aldıkları bir kitabı iade edebilirler.
+
+2. Gerekli kütüphaneleri yükleyin:
+python main.py
+
+
 <img width="390" alt="Screenshot 2024-05-05 at 14 02 58" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/8a62cf47-336e-4be7-a5e1-0b9765693363">
 
+
+
 # Proje 4 Etkinlik Yönetim Sistemi
+
+Bu proje, PyQt5 kullanılarak geliştirilmiş bir etkinlik yönetim sistemi uygulamasını içerir. Bu uygulama, çeşitli etkinlikleri (konserler, tiyatrolar vb.) yönetmek ve katılımcıların bilet satın almasını sağlar.
+
+## Özellikler
+
+- Etkinlik ekleme: Yöneticiler, yeni etkinlikler ekleyebilirler.
+- Katılımcı ekleme: Yöneticiler, yeni katılımcıları sisteme kaydedebilirler.
+- Bilet satın alma: Katılımcılar, etkinliklere katılmak için bilet satın alabilirler.
+- Basit arayüz: Kullanıcılar, etkinlik ve katılımcı bilgilerini kolayca girebilirler.
+
 
 <img width="271" alt="Screenshot 2024-05-05 at 14 04 07" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/f4064110-a16f-4341-a0d0-88bcbab7a411">
 
 # Proje 5 Online Eğitim Platformu
+
+Bu proje, PyQt5 ve SQLite kullanılarak gerçekleştirilmiş basit bir çevrimiçi eğitim platformudur. Kullanıcılar, mevcut kursları görüntüleyebilir, kurslara kaydolabilir, kurs içeriğini görüntüleyebilir, yeni kurslar oluşturabilir, yeni eğitmenler ekleyebilir ve öğrencileri kaydedebilirler.
+
+## Özellikler
+
+- Mevcut kursları görüntüleme: Kullanıcılar, mevcut kursların listesini görebilirler.
+- Kurslara kaydolma: Kullanıcılar, ilgilendikleri kurslara kaydolabilirler.
+- Kurs içeriğini görüntüleme: Kullanıcılar, seçili kursun içeriğini görüntüleyebilirler.
+- Yeni kurs oluşturma: Yöneticiler, yeni kurslar oluşturabilirler.
+- Yeni eğitmen ekleme: Yöneticiler, platforma yeni eğitmenler ekleyebilirler.
+- Öğrenci kaydı yapma: Yöneticiler, platforma yeni öğrenciler kaydedebilirler.
 
 <img width="344" alt="Screenshot 2024-05-05 at 14 05 40" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/53c5579b-e3de-4889-847d-8baae744b8ac">
 
