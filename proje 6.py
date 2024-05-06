@@ -1,6 +1,6 @@
 import sys
 import sqlite3
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QTextEdit, QMessageBox
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QTextEdit, QMessageBox, QListWidget, QListWidgetItem
 
 class TarifUygulamasi(QWidget):
     def __init__(self):
@@ -11,6 +11,10 @@ class TarifUygulamasi(QWidget):
 
     def arayuz_olustur(self):
         self.duzen = QVBoxLayout()
+
+        # Fancy Heading
+        fancy_heading = QLabel("<h1 style='color: #808000; font-family: Arial, sans-serif;'>Tarif Uygulaması</h1>")
+        self.duzen.addWidget(fancy_heading)
 
         # Tarif
         self.tarif_ad_label = QLabel("Tarif Adı:")
@@ -23,25 +27,26 @@ class TarifUygulamasi(QWidget):
         self.duzen.addWidget(self.malzemeler_label)
         self.duzen.addWidget(self.malzemeler_input)
 
-        # Malzeme
-        self.malzeme_ad_label = QLabel("Malzeme Adı:")
-        self.malzeme_ad_input = QLineEdit()
-        self.duzen.addWidget(self.malzeme_ad_label)
-        self.duzen.addWidget(self.malzeme_ad_input)
-
-        self.miktar_label = QLabel("Miktarı:")
-        self.miktar_input = QLineEdit()
-        self.duzen.addWidget(self.miktar_label)
-        self.duzen.addWidget(self.miktar_input)
-
         self.tarif_label = QLabel("Tarif:")
         self.tarif_input = QTextEdit()
         self.duzen.addWidget(self.tarif_label)
         self.duzen.addWidget(self.tarif_input)
 
         self.tarif_ekle_button = QPushButton("Tarifi Ekle")
+        self.tarif_ekle_button.setStyleSheet("background-color: green;")
         self.tarif_ekle_button.clicked.connect(self.tarif_ekle)
         self.duzen.addWidget(self.tarif_ekle_button)
+
+        # Tarif Listesi
+        self.tarif_listesi = QListWidget()
+        self.tarif_listesi.itemClicked.connect(self.tarif_detaylari_goster)
+        self.duzen.addWidget(self.tarif_listesi)
+
+        # Tarif Sil Button
+        self.tarif_sil_button = QPushButton("Seçili Tarifi Sil")
+        self.tarif_sil_button.setStyleSheet("background-color: red;")
+        self.tarif_sil_button.clicked.connect(self.tarif_sil)
+        self.duzen.addWidget(self.tarif_sil_button)
 
         # Kullanıcı
         self.kullanici_ad_label = QLabel("Kullanıcı Adı:")
@@ -71,6 +76,12 @@ class TarifUygulamasi(QWidget):
                                 sifre TEXT)''')
         self.veritabani_baglantisi.commit()
 
+        # Existing recipes fetch and display
+        self.cursor.execute("SELECT tarif_adi FROM Tarifler")
+        tarifler = self.cursor.fetchall()
+        for tarif in tarifler:
+            self.tarif_listesi.addItem(tarif[0])
+
     def tarif_ekle(self):
         tarif_ad = self.tarif_ad_input.text().strip()
         malzemeler = self.malzemeler_input.toPlainText().strip()
@@ -81,8 +92,29 @@ class TarifUygulamasi(QWidget):
                                 (tarif_ad, malzemeler, tarif_icerik))
             self.veritabani_baglantisi.commit()
             QMessageBox.information(self, "Başarılı", "Tarif başarıyla eklendi!")
+            self.tarif_listesi.addItem(tarif_ad)
         else:
             QMessageBox.warning(self, "Uyarı", "Lütfen tüm alanları doldurun.")
+
+    def tarif_detaylari_goster(self, item):
+        tarif_adi = item.text()
+        self.cursor.execute("SELECT malzemeler, tarif_metni FROM Tarifler WHERE tarif_adi = ?", (tarif_adi,))
+        tarif_detaylari = self.cursor.fetchone()
+        if tarif_detaylari:
+            malzemeler, tarif_metni = tarif_detaylari
+            self.malzemeler_input.setPlainText(malzemeler)
+            self.tarif_input.setPlainText(tarif_metni)
+
+    def tarif_sil(self):
+        selected_items = self.tarif_listesi.selectedItems()
+        if not selected_items:
+            QMessageBox.warning(self, "Uyarı", "Silmek için bir tarif seçiniz.")
+            return
+
+        for item in selected_items:
+            self.cursor.execute("DELETE FROM Tarifler WHERE tarif_adi = ?", (item.text(),))
+            self.veritabani_baglantisi.commit()
+            self.tarif_listesi.takeItem(self.tarif_listesi.row(item))
 
     def closeEvent(self, event):
         self.veritabani_baglantisi.close()
