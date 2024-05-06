@@ -28,7 +28,8 @@ Sporcu bilgilerini ve antrenman detaylarını kaydetme.
 Kaydedilen antrenmanları listeleme.
 İlerleme kayıtlarını tutma ve görüntüleme.
 
-<img width="286" alt="Screenshot 2024-05-03 at 20 51 35" src="https://github.com/NawidaAbdulHakim/Proje7/assets/162152692/08c20160-b499-4ac4-9e07-fae1e86f0c33">
+<img width="290" alt="Screenshot 2024-05-06 at 21 19 40" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/9394d8ca-1cb9-4c24-a868-0ce000d40390">
+
 
 # Proje 8 Stok Takip Sistemi
 
