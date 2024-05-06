@@ -174,7 +174,8 @@ Python 3.x
 PyQt5 kütüphanesi
 SQLite3
 
-<img width="288" alt="Screenshot 2024-05-01 at 18 17 01" src="https://github.com/NawidaAbdulHakim/Proje10/assets/162152692/9018aec2-c215-46ae-8c67-3a08edd974a9">
+<img width="443" alt="Screenshot 2024-05-06 at 17 34 35" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5d78cd30-bebb-43af-97da-ef3b7d51d0ea">
+
 
 # Proje 11 Müzik Enstrümanı Dükkanı Yönetimi
 
