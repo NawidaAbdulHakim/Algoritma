@@ -1,3 +1,97 @@
+# Proje 6 Tarif Uygulaması
+
+Bu, PyQt5 ve SQLite kullanılarak oluşturulmuş basit bir tarif yönetim uygulamasıdır.
+
+# Genel Bakış
+
+Tarif Uygulaması kullanıcıların:
+
+Tarif adı, malzemeler ve talimatlar gibi detaylarla yeni tarifler eklemesine olanak tanır.
+Tarifleri SQLite veritabanında saklar.
+Kullanıcılar kullanıcı adı ve şifrelerini sağlayarak uygulamaya erişebilirler.
+
+# Özellikler
+
+Kullanıcı Arayüzü: Tarif eklemek ve yönetmek için kullanıcı dostu bir arayüz sağlar.
+Veritabanı Entegrasyonu: Tarif bilgilerini kalıcı olarak saklamak için SQLite kullanır.
+Kullanıcı Kimlik Doğrulama: Kullanıcıların kullanıcı adı ve şifreleri ile giriş yapmasına olanak tanır.
+
+<img width="291" alt="Screenshot 2024-05-06 at 15 13 27" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/d4f052ba-4e13-43b4-8c0e-0d342b7d4936">
+
+# Proje 7 Spor Takip Uygulaması
+
+Bu proje, sporcuların antrenmanlarını ve ilerlemelerini takip etmelerine yardımcı olmak için basit bir PyQt5 tabanlı bir uygulamadır.
+
+# Özellikler
+
+Sporcu bilgilerini ve antrenman detaylarını kaydetme.
+Kaydedilen antrenmanları listeleme.
+İlerleme kayıtlarını tutma ve görüntüleme.
+
+<img width="286" alt="Screenshot 2024-05-03 at 20 51 35" src="https://github.com/NawidaAbdulHakim/Proje7/assets/162152692/08c20160-b499-4ac4-9e07-fae1e86f0c33">
+
+# Proje 8 Stok Takip Sistemi
+
+Bu, Python kullanılarak PyQt5 ile GUI ve SQLite ile veritabanı kullanılarak gerçekleştirilmiş basit bir stok takip sistemi. Kullanıcılar ürün ekleyebilir, stok miktarını güncelleyebilir ve sipariş oluşturabilir.
+
+# Özellikler
+
+Ürün Yönetimi: Kullanıcılar yeni ürünlerin stok miktarını ekleyebilir.
+Stok Yönetimi: Kullanıcılar mevcut ürünlerin stok miktarını güncelleyebilir.
+Sipariş Oluşturma: Kullanıcılar benzersiz bir sipariş numarası ve sipariş detayları sağlayarak sipariş oluşturabilir.
+
+# Gereksinimler
+
+Python 3.x
+PyQt5 kütüphanesi
+SQLite3
+
+<img width="292" alt="Screenshot 2024-05-06 at 16 24 59" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/eaa9d2f8-e755-4329-82b6-f7dbf76daedf">
+
+# Proje 9 Seyahat Planlama Uygulaması
+
+Bu Python tabanlı bir seyahat planlama uygulamasıdır. PyQt5 kütüphanesi kullanılarak GUI oluşturulmuş ve SQLite veritabanı kullanılmıştır. Bu uygulama, seyahat rotalarını oluşturmanıza, konaklama tesislerini seçmenize ve seyahat planlarınızı yönetmenize olanak tanır.
+
+# Özellikler
+
+Seyahat Rotaları Oluşturma: Kullanıcılar seyahat rotalarını ve rotaya ilişkin detayları ekleyebilir.
+Konaklama Tesisleri Seçme: Kullanıcılar bir seyahat planında kullanmak üzere konaklama tesislerini seçebilir.
+Seyahat Planlarını Listeleme: Kullanıcılar oluşturdukları seyahat planlarını listeyebilir.
+
+# Gereksinimler
+
+Python 3.x
+PyQt5 kütüphanesi
+SQLite3
+
+# Gerekli bağımlılıkları yükleyin:
+pip install pyqt5
+# Uygulamayı çalıştırın:
+python main.py
+
+<img width="288" alt="Screenshot 2024-05-06 at 16 59 44" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/a5dddacd-dd32-4c6d-af5e-0b676efde6ea">
+
+# proje 10 Müşteri İlişkileri Yönetimi (CRM) Uygulaması
+
+Bu Python tabanlı bir müşteri ilişkileri yönetimi (CRM) uygulamasıdır. PyQt5 kütüphanesi kullanılarak GUI oluşturulmuş ve SQLite veritabanı kullanılmıştır. Bu uygulama, müşteri bilgilerini kaydetmenize, satışları takip etmenize ve destek taleplerini yönetmenize olanak tanır.
+
+# Özellikler
+
+Müşteri Eklemek: Kullanıcılar müşteri adını ve iletişim bilgilerini ekleyebilir.
+Satış Eklemek: Kullanıcılar bir satış numarası, müşteri ID ve satılan ürünler gibi bilgilerle satış ekleyebilir.
+Destek Talebi Oluşturmak: Kullanıcılar müşteriye ilişkin bir destek talebi oluşturabilir.
+
+# Gerekli bağımlılıkları yükleyin:
+pip install pyqt5
+
+# Gereksinimler
+
+Python 3.x
+PyQt5 kütüphanesi
+SQLite3
+
+<img width="443" alt="Screenshot 2024-05-06 at 17 34 35" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5d78cd30-bebb-43af-97da-ef3b7d51d0ea">
+
 # Proje 1  Araç Kiralama Sistemi
 
 Bu proje, PyQt5 kullanılarak geliştirilmiş basit bir araç kiralama sistemi uygulamasını içerir. Bu uygulama, kullanıcıların araç kiralama işlemlerini gerçekleştirebilmesine olanak tanır.
@@ -61,7 +155,6 @@ Bu proje, PyQt5 kullanılarak geliştirilmiş bir etkinlik yönetim sistemi uygu
 - Bilet satın alma: Katılımcılar, etkinliklere katılmak için bilet satın alabilirler.
 - Basit arayüz: Kullanıcılar, etkinlik ve katılımcı bilgilerini kolayca girebilirler.
 
-
 <img width="271" alt="Screenshot 2024-05-05 at 14 04 07" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/f4064110-a16f-4341-a0d0-88bcbab7a411">
 
 # Proje 5 Online Eğitim Platformu
@@ -78,103 +171,6 @@ Bu proje, PyQt5 ve SQLite kullanılarak gerçekleştirilmiş basit bir çevrimi�
 - Öğrenci kaydı yapma: Yöneticiler, platforma yeni öğrenciler kaydedebilirler.
 
 <img width="344" alt="Screenshot 2024-05-05 at 14 05 40" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/53c5579b-e3de-4889-847d-8baae744b8ac">
-
-# Proje 6 Tarif Uygulaması
-
-Bu, PyQt5 ve SQLite kullanılarak oluşturulmuş basit bir tarif yönetim uygulamasıdır.
-
-# Genel Bakış
-
-Tarif Uygulaması kullanıcıların:
-
-Tarif adı, malzemeler ve talimatlar gibi detaylarla yeni tarifler eklemesine olanak tanır.
-Tarifleri SQLite veritabanında saklar.
-Kullanıcılar kullanıcı adı ve şifrelerini sağlayarak uygulamaya erişebilirler.
-
-# Özellikler
-
-Kullanıcı Arayüzü: Tarif eklemek ve yönetmek için kullanıcı dostu bir arayüz sağlar.
-Veritabanı Entegrasyonu: Tarif bilgilerini kalıcı olarak saklamak için SQLite kullanır.
-Kullanıcı Kimlik Doğrulama: Kullanıcıların kullanıcı adı ve şifreleri ile giriş yapmasına olanak tanır.
-
-<img width="291" alt="Screenshot 2024-05-06 at 15 13 27" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/d4f052ba-4e13-43b4-8c0e-0d342b7d4936">
-
-
-# Proje 7 Spor Takip Uygulaması
-
-Bu proje, sporcuların antrenmanlarını ve ilerlemelerini takip etmelerine yardımcı olmak için basit bir PyQt5 tabanlı bir uygulamadır.
-
-# Özellikler
-
-Sporcu bilgilerini ve antrenman detaylarını kaydetme.
-Kaydedilen antrenmanları listeleme.
-İlerleme kayıtlarını tutma ve görüntüleme.
-
-<img width="286" alt="Screenshot 2024-05-03 at 20 51 35" src="https://github.com/NawidaAbdulHakim/Proje7/assets/162152692/08c20160-b499-4ac4-9e07-fae1e86f0c33">
-
-# Proje 8 Stok Takip Sistemi
-
-Bu, Python kullanılarak PyQt5 ile GUI ve SQLite ile veritabanı kullanılarak gerçekleştirilmiş basit bir stok takip sistemi. Kullanıcılar ürün ekleyebilir, stok miktarını güncelleyebilir ve sipariş oluşturabilir.
-
-# Özellikler
-
-Ürün Yönetimi: Kullanıcılar yeni ürünlerin stok miktarını ekleyebilir.
-Stok Yönetimi: Kullanıcılar mevcut ürünlerin stok miktarını güncelleyebilir.
-Sipariş Oluşturma: Kullanıcılar benzersiz bir sipariş numarası ve sipariş detayları sağlayarak sipariş oluşturabilir.
-
-# Gereksinimler
-
-Python 3.x
-PyQt5 kütüphanesi
-SQLite3
-
-<img width="292" alt="Screenshot 2024-05-06 at 16 24 59" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/eaa9d2f8-e755-4329-82b6-f7dbf76daedf">
-
-
-# Proje 9 Seyahat Planlama Uygulaması
-
-Bu Python tabanlı bir seyahat planlama uygulamasıdır. PyQt5 kütüphanesi kullanılarak GUI oluşturulmuş ve SQLite veritabanı kullanılmıştır. Bu uygulama, seyahat rotalarını oluşturmanıza, konaklama tesislerini seçmenize ve seyahat planlarınızı yönetmenize olanak tanır.
-
-# Özellikler
-
-Seyahat Rotaları Oluşturma: Kullanıcılar seyahat rotalarını ve rotaya ilişkin detayları ekleyebilir.
-Konaklama Tesisleri Seçme: Kullanıcılar bir seyahat planında kullanmak üzere konaklama tesislerini seçebilir.
-Seyahat Planlarını Listeleme: Kullanıcılar oluşturdukları seyahat planlarını listeyebilir.
-
-# Gereksinimler
-
-Python 3.x
-PyQt5 kütüphanesi
-SQLite3
-
-# Gerekli bağımlılıkları yükleyin:
-pip install pyqt5
-# Uygulamayı çalıştırın:
-python main.py
-
-<img width="288" alt="Screenshot 2024-05-06 at 16 59 44" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/a5dddacd-dd32-4c6d-af5e-0b676efde6ea">
-
-
-# proje 10 Müşteri İlişkileri Yönetimi (CRM) Uygulaması
-
-Bu Python tabanlı bir müşteri ilişkileri yönetimi (CRM) uygulamasıdır. PyQt5 kütüphanesi kullanılarak GUI oluşturulmuş ve SQLite veritabanı kullanılmıştır. Bu uygulama, müşteri bilgilerini kaydetmenize, satışları takip etmenize ve destek taleplerini yönetmenize olanak tanır.
-
-# Özellikler
-
-Müşteri Eklemek: Kullanıcılar müşteri adını ve iletişim bilgilerini ekleyebilir.
-Satış Eklemek: Kullanıcılar bir satış numarası, müşteri ID ve satılan ürünler gibi bilgilerle satış ekleyebilir.
-Destek Talebi Oluşturmak: Kullanıcılar müşteriye ilişkin bir destek talebi oluşturabilir.
-
-# Gerekli bağımlılıkları yükleyin:
-pip install pyqt5
-
-# Gereksinimler
-
-Python 3.x
-PyQt5 kütüphanesi
-SQLite3
-
-<img width="443" alt="Screenshot 2024-05-06 at 17 34 35" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5d78cd30-bebb-43af-97da-ef3b7d51d0ea">
 
 
 # Proje 11 Müzik Enstrümanı Dükkanı Yönetimi
@@ -261,7 +257,8 @@ Kullanıcı Girişi: Kullanıcılar, kullanıcı adı ve şifreleriyle giriş ya
 Film Listesi: Kullanıcılar, mevcut filmleri bir liste şeklinde görüntüleyebilirler.
 Film Ekleme: Yönetici kullanıcılar, yeni filmleri ekleyebilirler. Film adı, yönetmen ve tür bilgilerini girdikten sonra "Film Ekle" düğmesine tıklayarak yeni bir film ekleyebilirler.
 
-<img width="595" alt="Screenshot 2024-05-05 at 14 50 15" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/45dbe34e-878b-43db-a156-c6b52c23f7e1">
+![p16](https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/d85acadd-cccc-4cca-b88a-120ed00e5d8e)
+
 
 
 # Proje 17 Eğitim Materyali Paylaşım Platformu
@@ -274,7 +271,8 @@ Ders Oluşturma: Öğretmenler, ders adını ve ilgili öğretmeni seçerek yeni
 Materyal Ekleme: Öğretmenler, belirli bir derse materyal ekleyebilirler. Materyal adı, türü ve içeriği girilerek materyal oluşturulabilir.
 Materyal Listesi: Eklenen dersler ve materyaller bir liste olarak görüntülenir.
 
-<img width="593" alt="Screenshot 2024-05-05 at 14 23 56" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/09712d5b-276a-41cb-b215-4588f1e5318f">
+![p17](https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/e73ea01d-272b-4541-921c-61307da6d425)
+
 
 # proje 18 Tarihçi - Tarihi Olaylar Veritabanı
 Bu uygulama, tarihi olaylar, şahsiyetler ve dönemler hakkında bilgi depolamanıza ve yönetmenize olanak tanır.
@@ -286,7 +284,7 @@ Olay Ekleme: Belirli bir olayın adını, tarihini ve açıklamasını girerek v
 Dönem Ekleme: Bir dönemin adını, başlangıç tarihini ve bitiş tarihini girerek veritabanına yeni bir dönem ekleyebilirsiniz.
 Veri Listeleme: Eklenen olaylar, şahsiyetler ve dönemler bir liste olarak görüntülenir.
 
-<img width="495" alt="Screenshot 2024-05-05 at 14 25 10" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/fc232849-7df6-49ed-af15-2c5ed153e8e2">
+![p18](https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/6dac5968-b2d2-40ca-b116-f0757a1df49a)
 
 # Kullanım
 
