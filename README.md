@@ -97,7 +97,8 @@ Kullanıcı Arayüzü: Tarif eklemek ve yönetmek için kullanıcı dostu bir ar
 Veritabanı Entegrasyonu: Tarif bilgilerini kalıcı olarak saklamak için SQLite kullanır.
 Kullanıcı Kimlik Doğrulama: Kullanıcıların kullanıcı adı ve şifreleri ile giriş yapmasına olanak tanır.
 
-<img width="288" alt="Screenshot 2024-05-05 at 14 08 15" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/008c0052-a6df-40d8-9f89-7b275dff5537">
+<img width="291" alt="Screenshot 2024-05-06 at 15 13 27" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/d4f052ba-4e13-43b4-8c0e-0d342b7d4936">
+
 
 # Proje 7 Spor Takip Uygulaması
 
@@ -127,7 +128,8 @@ Python 3.x
 PyQt5 kütüphanesi
 SQLite3
 
-<img width="249" alt="Screenshot 2024-05-03 at 21 38 13" src="https://github.com/NawidaAbdulHakim/proje8/assets/162152692/5c0fb65d-0ad0-40e8-a15b-26adbeb6d696">
+<img width="292" alt="Screenshot 2024-05-06 at 16 24 59" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/eaa9d2f8-e755-4329-82b6-f7dbf76daedf">
+
 
 # Proje 9 Seyahat Planlama Uygulaması
 
@@ -150,9 +152,8 @@ pip install pyqt5
 # Uygulamayı çalıştırın:
 python main.py
 
-<img width="246" alt="Screenshot 2024-05-03 at 21 36 20" src="https://github.com/NawidaAbdulHakim/Proje9/assets/162152692/155ace09-a0bf-4c89-80c0-b8d483a10c31">
+<img width="288" alt="Screenshot 2024-05-06 at 16 59 44" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/a5dddacd-dd32-4c6d-af5e-0b676efde6ea">
 
-<img width="279" alt="Screenshot 2024-05-03 at 21 33 58" src="https://github.com/NawidaAbdulHakim/Proje9/assets/162152692/aea826c3-cdb8-4dda-b682-cd6e6ed9fd53">
 
 # proje 10 Müşteri İlişkileri Yönetimi (CRM) Uygulaması
 
