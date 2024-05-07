@@ -28,7 +28,8 @@ Sporcu bilgilerini ve antrenman detaylarını kaydetme.
 Kaydedilen antrenmanları listeleme.
 İlerleme kayıtlarını tutma ve görüntüleme.
 
-<img width="290" alt="Screenshot 2024-05-06 at 21 19 40" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/9394d8ca-1cb9-4c24-a868-0ce000d40390">
+<img width="336" alt="Screenshot 2024-05-07 at 19 21 15" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/e9dbfeb9-efcf-47d1-b16e-4692e069f991">
+
 
 
 # Proje 8 Stok Takip Sistemi
@@ -91,7 +92,8 @@ Python 3.x
 PyQt5 kütüphanesi
 SQLite3
 
-<img width="443" alt="Screenshot 2024-05-06 at 17 34 35" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/5d78cd30-bebb-43af-97da-ef3b7d51d0ea">
+<img width="445" alt="Screenshot 2024-05-07 at 16 49 00" src="https://github.com/NawidaAbdulHakim/Algoritma/assets/162152692/6d6437a4-a9c2-4347-a3d3-4e40d94bf788">
+
 
 # Proje 1  Araç Kiralama Sistemi
 
